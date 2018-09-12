@@ -3,6 +3,9 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def index(request):
-    context = {}
-    context['hello'] = 'world!'
-    return render(request, 'index.html', context)
+
+    return render(request, 'index.html')
+
+def about(request):
+
+    return render(request, 'about.html')
