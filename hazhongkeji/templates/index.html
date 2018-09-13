@@ -1,259 +1,610 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Home</title>
-<link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="/static/js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<!--theme-style-->
-<link href="/static/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!--//theme-style-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--fonts-->
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<!--//fonts-->
-</head>
-<body> 
-<!--header-->
-<div class="header">
-		<div class="header-top">
-			<div class="container">
-				<ul>
-					<li ><a href="#" ><span > </span>xxxx@qq.com</a></li>
-					<li class="tele-in"><a href="#" ><span > </span>0451-00000000</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<div class="header-bottom">
-			<div class="container">			
-				<div class="logo">
-					<a href="index.html"><img src="/static/images/logo1.png" alt=" " /></a>
-				</div>
-				<div class="top-nav">
-					<span class="menu"> </span>
-					<ul>
-						<li><a href="index.html" class="scroll">首页 </a></li>
-						<li><a href="about.html" class="scroll">关于我们</a></li>
-						<li><a href="services.html" class="scroll">服务</a></li>
-						<li><a href="project.html" class="scroll">项目</a></li>
-						<li><a href="references.html" class="scroll">参考文献</a></li>
-						<li><a href="blog.html" class="scroll">博客</a></li>
-						<li><a href="contact.html" class="scroll">联系我们</a></li>
-					</ul>
-					<!--script-->
-				<script>
-					$("span.menu").click(function(){
-						$(".top-nav ul").slideToggle(500, function(){
-						});
-					});
-			</script>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-	</div>
-	</div>
-	<!----start-slider-script---->
-			<script src="/static/js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager: true,
-			        nav: true,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-			<!----//End-slider-script---->
-			<!-- Slideshow 4 -->
-			    <div  id="top" class="callbacks_container">
-				   <ul class="rslides" id="slider4">
-			        <li>
-			          <img src="/static/images/banner.jpg" alt="">
-						<div class="caption bounceInDown" data-wow-delay="0.4s">
-			          	<div class="slide-text-info">
-							<h2>ISTANBUL CONCEPT ANIMATION 2 AWARDS</h2>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-			          		<a class="startnow" href="#">CLICK FOR DETAILS</a>			          			
-			          	</div>
-			          </div>
-			        </li>
-			       <li>
-			          <img src="/static/images/banner1.jpg" alt="">
-						<div class="caption bounceInDown" data-wow-delay="0.4s">
-			          	<div class="slide-text-info">
-							<h2>ISTANBUL CONCEPT ANIMATION 2 AWARDS</h2>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-			          		<a class="startnow" href="#">CLICK FOR DETAILS</a>			          			
-			          	</div>
-			          </div>
-			        </li>
-					<li>
-			          <img src="/static/images/banner.jpg" alt="">
-						<div class="caption bounceInDown" data-wow-delay="0.4s">
-			          	<div class="slide-text-info">
-							<h2>ISTANBUL CONCEPT ANIMATION 2 AWARDS</h2>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-			          		<a class="startnow" href="#">CLICK FOR DETAILS</a>			          			
-			          	</div>
-			          </div>
-			        </li>
-					<li>
-			          <img src="/static/images/banner2.jpg" alt="">
-						<div class="caption bounceInDown" data-wow-delay="0.4s">
-			          	<div class="slide-text-info">
-							<h2>ISTANBUL CONCEPT ANIMATION 2 AWARDS</h2>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-			          		<a class="startnow" href="#">CLICK FOR DETAILS</a>			          			
-			          	</div>
-			          </div>
-			        </li>
-			      </ul>
-				   <div class="clearfix"> </div>
-			    </div>	         		   
-			<!----- //End-slider---->
-	<!---banner--->
-	<!--content-->
-	<div class="content" style="clear: both">
-		<div class="container">
-			<div class="about">
-				<div class="about-left">
-				<h3>LAST PROJECTS</h3>		
-				<div class="about-left-left">
-					<img class="img-responsive red" src="/static/images/tv.png" alt="" />
-					<div class="left-about">
-						<h4>TEZAVANTAJ SHOPPING WEB SITE</h4>
-						<span>WEB INTERFACE, HTML5, CSS3, PHP</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna .</p>
-						<a class="startnow now" href="#">PROJECT DETAILS</a>	
-					</div>
-					 <div class="clearfix"> </div>
-				</div>
-				</div>
-				<div class="about-left last">
-				<h3>REFERENCES</h3>		
-				<div class="about-left-left other-left">
-					<ul class="sony">
-						<li><a href="#" ><img  src="/static/images/s4.png" alt="" /> </a></li>
-						<li><a href="#" ><img  src="/static/images/s3.png" alt="" /></a></li>
-						<li><a href="#"><img  src="/static/images/s2.png" alt="" />  </a></li>
-						<li><a href="#"><img  src="/static/images/s1.png" alt="" />  </a></li>
-					</ul>
-					<a class="startnow now now-left" href="#">OTHER REFERENCES</a>	
-					 <div class="clearfix"> </div>
-				</div>
-				</div>
-			<div class="clearfix"> </div>
-			</div>
-			<div class="blog">
-				<div class="blog-left">
-				<h3>BLOG</h3>		
-				<div class="blog-left-left">
-					<div class="blog-left-right">
-						<img class=" img-responsive red-left" src="/static/images/face.png" alt="" />
-						<div class="left-blog">
-							<h6>Facebook is going to innovations in news flow</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
-							<a class="click" href="#">CLICK FOR DETAILS</a>	
-							 <div class="clearfix"> </div>
-						</div>
-						 <div class="clearfix"> </div>
-					</div>
-					<div class="blog-left-bottom">
-					<div class="col-mt">
-						<img class="img-responsive" src="/static/images/t1.jpg" alt="" />
-						<h6>Technology-related correct known false</h6>
-					</div>
-					<div class="col-mt col-t">
-						<img class="img-responsive" src="/static/images/t2.jpg" alt="" />
-						<h6> Good invitation LinkedIn?</h6>
-					</div>
-					<div class="col-mt col-t black-grid">
-						<img class="img-responsive" src="/static/images/t3.jpg" alt="" />
-						<h6>iPhone 6 200 thousand to 540 </h6>
-					</div>
-					 <div class="clearfix"> </div>
-					</div>
-					</div>
-				</div>
-				<div class="blog-left last-blog">
-				<h3>USER REVIEWS</h3>		
-				<div class="right-side-blog">
-					<img class="men-grid"  src="/static/images/m1.jpg" alt="" />
-					<div class="men-left">
-					<h5>You have a successful team. Loving your work  We're now watching.</h5>
-					<p>Linda Swafft /  Be-ta Founder</p>
-					<span>www.cssmoban.com</span>
-					</div>
-				<div class="clearfix"> </div>
-				</div>
-				<div class="right-side-blog">
-					<img class="men-grid"  src="/static/images/m2.jpg" alt="" />
-					<div class="men-left">
-					<h5>You have a successful team. Loving your work  We're now watching.</h5>
-					<p>Linda Swafft /  Be-ta Founder</p>
-					<span>www.cssmoban.com</span>
-					</div>
-				<div class="clearfix"> </div>
-				</div>
-				<div class="right-side-blog m3-blog">
-					<img class="men-grid"  src="/static/images/m3.jpg" alt="" />
-					<div class="men-left">
-					<h5>You have a successful team. Loving your work  We're now watching.</h5>
-					<p>Linda Swafft /  Be-ta Founder</p>
-					<span>www.cssmoban.com</span>
-					</div>
-				<div class="clearfix"> </div>
-				</div>
-				</div>
-			<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--footer-->
-	<div class="footer">
-		<div class="container">
-				<div class="footer-class">
-				<div class="class-footer">
-					<ul>
-						<li  ><a href="index.html" class="scroll">HOMEPAGE</a>  <span>|</span> </li>
-						<li><a href="about.html" class="scroll">ABOUT US </a><span>|</span></li>
-						<li><a href="services.html" class="scroll">SERVICES</a>  <span>|</span></li>
-						<li><a href="project.html" class="scroll">PROJECTS</a> <span>|</span></li>
-						<li><a href="references.html" class="scroll">REFERENCES</a> <span>|</span></li>
-						<li><a href="blog.html" class="scroll">BLOG </a><span>|</span></li>
-						<li><a href="contact.html" class="scroll">CONTACT US </a></li>
-					</ul>
-					 <p class="footer-grid">Copyright &copy; 2014.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-				</div>
-					 <ul class="social-ic-icons">
-						<li class="facebook"><a href="#"><span> </span></a></li>
-						<li class="twitter"><a href="#"><span> </span></a></li>
-						<li class="inline"><a href="#"><span> </span></a></li>
-						<li class="camera"><a href="#"><span> </span></a></li>
-						<li class="been"><a href="#"><span> </span></a></li>
-						<li class="print"><a href="#"><span> </span></a></li>
-						<li class="skype"><a href="#"><span> </span></a></li>
-						<li class="gmail"><a href="#"><span> </span></a></li>
+<!-- saved from url=(0025)http://www.meihuagrp.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>梅花集团官网—专注生物科技，创享美好未来</title>
+	<meta name="keywords" content="调味品，氨基酸，食品添加剂，饲料添加剂，医药中间体，生物发酵，农业深加工，循环经济，味精出口，梅花味精，苏氨酸，谷氨酰胺，精氨酸，脯氨酸，赖氨酸，色氨酸，核苷酸，异亮氨酸，绿色健康食品，中国驰名商标，中国最具竞争力品牌、全国氨基酸行业检测分析中心">
+	<meta name="description" content="梅花生物科技集团股份有限公司成立于2002年，是农业产业化国家重点龙头企业，主营业务集中在氨基酸和调味品领域。“梅花”牌味精先后荣获中国最具竞争力品牌，中国味精产业领导品牌等殊荣，拥有食品添加剂、饲料添加剂、医药中间体、调味品等四大系列产品，已经成为中国乃至世界氨基酸和调味品领域的领先者。梅花，以生物科技为舞台，为人类美好生活而盛开。">
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-					</ul>
-				<div class="clearfix"> </div>
-			 	</div>
-		 </div>
-	</div>
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+    <script src="/static/js/jquery.min.js"></script>
+    <link href="/static/css/zzsc.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/static/js/script.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.reveal.js"></script>
+    <script src="/static/js/slides.min.jquery.js" type="text/javascript"></script>
+<script src="/static/js/jquery.zalki_hover_img.min-0.2.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/static/css/hoverex-all.css">
+<!--<base target="_blank">--><base href="." target="_blank">
+<script type="text/javascript" src="/static/js/jquery.hoverex.js"></script>
+<script type="text/javascript">
 
-</body>
-</html>
+$(window).load(function(){
+
+$('.main_box').hover(function(){
+	$(this).css({ background:'#000'});
+	$(".pic",this).stop().animate({ opacity:'0.6'},500);
+	$(".popup",this).stop().animate({ opacity:'0.6'},500);
+
+},function(){
+	$(this).css({ background:'#fff'});
+	$(".pic",this).stop().animate({ opacity:'1'},500);
+	$(".popup",this).stop().animate({ opacity:'0'},500);
+});
+
+
+});
+
+</script>
+<script src="/static/js/share.js"></script><link rel="stylesheet" href="/static/css/slide_share.css"></head>
+
+<body>
+<!--头部开始-->
+<div id="head">
+    <!--顶部开始-->
+    <div class="top">
+      <a href="http://www.meihuagrp.com/"><img src="/static/images/logo.jpg" class="fl"></a>
+        <p class="fr"><a href="http://www.meihuagrp.com/" class="china">网站首页</a>|<a href="http://www.meihuagrp.com/en">ENGLISH</a></p>
+    </div>
+    <!--顶部结束-->
+    <!--导航开始-->
+    <div class="navbox">
+      <ul class="nav">
+                    <li class="drop-menu-effect">
+            <a><span>产品</span></a>
+            <div class="submenu" style="height: 0px; display: none; overflow: hidden;">
+              <div class="mj_menu_pro_bg">
+                <div class="mj_menu_pro_main">
+                  <div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/3.html"><h5>食品及食品添加剂</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/16.html">5'-肌苷酸二钠</a><br><a href="http://www.meihuagrp.com/index.php/article/17.html">呈味核苷酸二钠</a><br><a href="http://www.meihuagrp.com/index.php/article/18.html">纳他霉素</a><br><a href="http://www.meihuagrp.com/index.php/article/19.html">谷氨酸钠</a><br><a href="http://www.meihuagrp.com/index.php/article/14.html">普鲁兰多糖</a><br><a href="http://www.meihuagrp.com/index.php/article/13.html">海藻糖</a><br><a href="http://www.meihuagrp.com/index.php/article/693.html">海藻糖浆</a><br>                    </div>
+                  </div><div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/14.html"><h5>调味品</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/538.html">梅花鲜</a><br><a href="http://www.meihuagrp.com/index.php/article/21.html">味精</a><br><a href="http://www.meihuagrp.com/index.php/article/20.html">酱油</a><br>                    </div>
+                  </div><div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/15.html"><h5>饲料氨基酸</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/31.html">L-赖氨酸硫酸盐</a><br><a href="http://www.meihuagrp.com/index.php/article/30.html">L-赖氨酸盐酸盐</a><br><a href="http://www.meihuagrp.com/index.php/article/29.html">L-苏氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/28.html">L-色氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/341.html">缬氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/27.html">饲料用玉米蛋白粉</a><br><a href="http://www.meihuagrp.com/index.php/article/26.html">玉米皮粉</a><br><a href="http://www.meihuagrp.com/index.php/article/25.html">加浆玉米皮粉</a><br><a href="http://www.meihuagrp.com/index.php/article/24.html">味精渣</a><br><a href="http://www.meihuagrp.com/index.php/article/23.html">精品味精渣</a><br><a href="http://www.meihuagrp.com/index.php/article/22.html">核苷酸渣</a><br>                    </div>
+                  </div><div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/16.html"><h5>医药氨基酸</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/587.html">L-谷氨酰胺（USP型）</a><br><a href="http://www.meihuagrp.com/index.php/article/41.html">L-谷氨酰胺</a><br><a href="http://www.meihuagrp.com/index.php/article/40.html">L-亮氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/39.html">L-异亮氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/38.html">L-缬氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/37.html">BCAA</a><br><a href="http://www.meihuagrp.com/index.php/article/36.html">L-脯氨酸</a><br><a href="http://www.meihuagrp.com/index.php/article/35.html">肌苷</a><br><a href="http://www.meihuagrp.com/index.php/article/34.html">鸟苷</a><br><a href="http://www.meihuagrp.com/index.php/article/33.html">腺苷</a><br><a href="http://www.meihuagrp.com/index.php/article/32.html">普鲁兰多糖</a><br>                    </div>
+                  </div><div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/17.html"><h5>胶体</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/583.html">液体黄原胶</a><br><a href="http://www.meihuagrp.com/index.php/article/495.html">透明黄原胶</a><br><a href="http://www.meihuagrp.com/index.php/article/42.html">黄原胶</a><br>                    </div>
+                  </div><div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/18.html"><h5>胶囊</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/46.html">普鲁兰多糖植物胶囊</a><br><a href="http://www.meihuagrp.com/index.php/article/45.html">肠溶胶囊</a><br><a href="http://www.meihuagrp.com/index.php/article/44.html">纤维素胶囊</a><br><a href="http://www.meihuagrp.com/index.php/article/43.html">明胶胶囊</a><br>                    </div>
+                  </div><div class="mj_menu_pro_li">
+                    <div class="mj_menu_li_txt">
+                    <a href="http://www.meihuagrp.com/index.php/list/20.html"><h5>肥料</h5></a>
+                                        <a href="http://www.meihuagrp.com/index.php/article/541.html">掺混肥</a><br><a href="http://www.meihuagrp.com/index.php/article/540.html">有机无机复混肥</a><br><a href="http://www.meihuagrp.com/index.php/article/539.html">有机肥</a><br><a href="http://www.meihuagrp.com/index.php/article/50.html">土壤调理剂</a><br>                    </div>
+                  </div>
+                  <div style="clear:both; height:0px; overflow:hidden;"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="drop-menu-effect mj_hover_menu">
+            <a><span>检测服务</span></a>
+            <div class="submenu" style="height: 246.665px; overflow: hidden; display: block;">
+              <div class="mj_menu_news_bg">
+                <div class="mj_menu_news_main">
+                  <div class="mj_menu_news_li">
+                    <div class="mj_menu_li_txt">
+                                        <p><a href="http://www.meihuagrp.com/index.php/page/1.html" traget="">机构简介与资质</a></p><p><a href="http://www.meihuagrp.com/index.php/page/2.html" traget="">检测项目</a></p><p><a href="http://www.meihuagrp.com/index.php/page/3.html" traget="">送检流程</a></p><p><a href="http://www.meihuagrp.com/index.php/contact.html" traget="">联系方式</a></p>                    </div>
+                  </div>
+
+                                                            <div class="mj_menu_news_img">
+                        <img src="/static/images/55a31fd0ec82e.jpg"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/page/1.html" target="_blank">实验室认可资质...</a></h2>
+                            <p>2014年4月，由中国合格评定国家认可委员会授予CNAS国家认可实验室称号，检测报告在世界30多个主要国家和地区予以互认。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/55a3203003d09.jpg"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/page/2.html" target="_blank">全国氨基酸行业分析检测中心...</a></h2>
+                            <p>2010年6月，它被全国发酵工业协会授予全国氨基酸行业分析检测中心的称号，它是中国氨基酸行业内唯一的专业氨基酸检测分析中心。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/574d4ac0f32df.jpg"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/contact.html" target="_blank">我们的中心我们的团队...</a></h2>
+                            <p>梅花第三方检测服务，值得您的托付。
+联系人：冯女士
+联系电话：0316-2359999-8703 
+传真：0316-2359627</p>
+                        </font>
+                      </div>                  <div style="clear:both; height:0px; overflow:hidden;"></div>
+                </div>
+              </div>
+            </div>
+          </li><li class="drop-menu-effect">
+            <a><span>行业先导</span></a>
+            <div class="submenu" style="height: 0px; display: none; overflow: hidden;">
+              <div class="mj_menu_news_bg">
+                <div class="mj_menu_news_main">
+                  <div class="mj_menu_news_li">
+                    <div class="mj_menu_li_txt">
+                                        <p><a href="http://www.meihuagrp.com/index.php/list/59.html" traget="">创新技术</a></p><p><a href="http://www.meihuagrp.com/index.php/page/6.html" traget="">环保先行者</a></p><p><a href="http://www.meihuagrp.com/index.php/list/54.html" traget="">行业标准</a></p><p><a href="http://www.meihuagrp.com/index.php/list/55.html" traget="">著述论文</a></p><p><a href="http://www.meihuagrp.com/index.php/list/67.html" traget="">项目环保公示</a></p>                    </div>
+                  </div>
+
+                                                            <div class="mj_menu_news_img">
+                        <img src="/static/images/55bf242807a12.jpg"><br>
+                         <font>
+                          <h2><a href="javascript:;" target="_blank">梅花海藻糖全新问世...</a></h2>
+                            <p>海藻糖是一种安全可靠的天然糖类，对多种生物活性物质具有保护作用，在科学界素有“生命之糖”的美誉，在食品、医药及化妆品行业市场前景广阔。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/55ca8f4c8d24d.jpg"><br>
+                         <font>
+                          <h2><a href="javascript:;" target="_blank">科普知识：梅花普鲁兰多糖先进...</a></h2>
+                            <p>普鲁兰多糖是1938年发现的一种特殊微生物多糖。2006年5月19日，国家卫生部发布了第8号公告，宣布普鲁兰多糖为新增四种食品添加剂产品之一，可在糖果、巧克力包衣、膜片、复合调味科和果蔬汁饮料中用作被膜剂和增稠剂。</p>
+                        </font>
+                      </div>                  <div style="clear:both; height:0px; overflow:hidden;"></div>
+                </div>
+              </div>
+            </div>
+          </li><li class="drop-menu-effect">
+            <a><span>企业资讯</span></a>
+            <div class="submenu" style="height: 0px; display: none; overflow: hidden;">
+              <div class="mj_menu_news_bg">
+                <div class="mj_menu_news_main">
+                  <div class="mj_menu_news_li">
+                    <div class="mj_menu_li_txt">
+                                        <p><a href="http://www.meihuagrp.com/index.php/list/4.html" traget="">新闻</a></p><p><a href="http://www.meihuagrp.com/index.php/list/5.html" traget="">展会活动</a></p><p><a href="http://www.meihuagrp.com/index.php/list/6.html" traget="">媒体报道</a></p><p><a href="http://www.meihuagrp.com/index.php/list/8.html" traget="">企业公告</a></p>                    </div>
+                  </div>
+
+                                                            <div class="mj_menu_news_img">
+                        <img src="/static/images/5b90c2218bf99.gif"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/article/912.html" target="_blank">校企合作：北华航天工业学院举...</a></h2>
+                            <p>9月3日下午，北华航天工业学院“梅花科技楼”揭牌仪式在华航新校区举行。梅花与北华航天工业学院早在2011年7月份就签订了战略合作框架协议，在人才培养等方面展开了深入合作，为支持学校发展，梅花集团向学校捐赠了300万元用于综合实验楼的建设。为此，校方将华航教九命名为“梅花科技楼”，希望双方继续深化合作，致力双赢，共谋发展。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/5b514e11eb3da.gif"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/article/906.html" target="_blank">招募启事 | 梅花公益新力量...</a></h2>
+                            <p>梅花公益面向企业员工及爱心人士招募志愿者，邀您一同参与，奉献爱心，汇聚公益力量，共筑爱心长城。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/5b3adb3f2e64b.jpg"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/article/899.html" target="_blank">梅花集团参与十公里健步走暨“...</a></h2>
+                            <p>2018年7月1日恰逢中国共产党的生日，梅花集团与中国银行廊坊开发区支行联合举办了10公里健步走活动，活动方案一出，各部门员工争先报名，人气高涨，还有员工带上家属一起参加，到截止时间共有50多人报名且确定参加。</p>
+                        </font>
+                      </div>                  <div style="clear:both; height:0px; overflow:hidden;"></div>
+                </div>
+              </div>
+            </div>
+          </li><li class="drop-menu-effect">
+            <a><span>了解梅花</span></a>
+            <div class="submenu" style="height: 0px; overflow: hidden; display: none;">
+              <div class="mj_menu_news_bg">
+                <div class="mj_menu_news_main">
+                  <div class="mj_menu_news_li">
+                    <div class="mj_menu_li_txt">
+                                        <p><a href="http://www.meihuagrp.com/index.php/about.html" traget="">梅花简介</a></p><p><a href="http://www.meihuagrp.com/index.php/page/10.html" traget="">价值主张</a></p><p><a href="http://www.meihuagrp.com/index.php/list/11.html" traget="">发展历程</a></p><p><a href="http://www.meihuagrp.com/index.php/page/12.html" traget="">企业责任</a></p>                    </div>
+                  </div>
+
+                                                            <div class="mj_menu_news_img">
+                        <img src="/static/images/55fb9f7b12f17.jpg"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/about.html" target="_blank">全球领先的氨基酸方案提供商...</a></h2>
+                            <p>梅花集团是全球领先的氨基酸营养健康解决方案提供商。公司成立于2002年，全称“梅花生物科技集团股份有限公司”，总部位于河北省廊坊市，是目前国内氨基酸综合品类最多、产能最大的生产企业之一。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/55fba01024cb9.JPG"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/page/10.html" target="_blank">打造生物发酵高端产业平台...</a></h2>
+                            <p>梅花集团拥有生物发酵行业中最完整的、最长的产业链和配套设施，通过全系列的研、产、供、销服务，灵活满足全球不同客户的差异化需求以及快速创新的追求，专注于打造生物发酵和生物制药的高端产业平台。</p>
+                        </font>
+                      </div>                      <div class="mj_menu_news_img">
+                        <img src="/static/images/55fba06b60a34.JPG"><br>
+                         <font>
+                          <h2><a href="http://www.meihuagrp.com/index.php/page/12.html" target="_blank">实现企业相关者的和谐共生...</a></h2>
+                            <p>梅花集团坚持贯彻可持续发展理念，实现社会、环境及利益相关者的和谐共生。未来，梅花集团将继续致力于氨基酸宏伟事业的发展，积极向生物制药高端领域进军，坚持走循环经济和可持续发展之路，应对日新月异的挑战，做一名优秀的企业公民。</p>
+                        </font>
+                      </div>                  <div style="clear:both; height:0px; overflow:hidden;"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+      </ul>
+    </div>
+<script>
+    $(function(){
+        $(".drop-menu-effect").each(function(){
+            var $this = $(this);
+            var theMenu = $this.find(".submenu");
+            var tarHeight = theMenu.height();
+            theMenu.css({height:0});
+            $this.hover(
+                function(){
+                    $(this).addClass("mj_hover_menu");
+                    $(".submenu").stop().hide().animate({height:0},600);
+                    theMenu.stop().show().animate({height:tarHeight},600);
+                },
+                function(){
+                    $(this).removeClass("mj_hover_menu");
+                    theMenu.stop().animate({height:0},600,function(){
+                        $(this).css({display:"none"});
+                    });
+                }
+            );
+        });
+    });
+
+
+    </script>
+
+    <!--导航结束-->
+    <div class="clear"></div>
+    <!--幻灯开始-->
+    <div class="index-banner">
+        <div class="www51buycom">
+            <div class="slides_container" style="overflow: hidden; position: relative;">
+                <div class="slides_control" style="position: relative; width: 6144px; height: 545px; left: -2048px;"><li style="position: absolute; top: 0px; left: 2048px; z-index: 0;"><a href="http://www.meihuagrp.com/index.php/list/3.html"><img src="/static/images/55a767323d090.jpg" alt="banner1"></a></li><li style="position: absolute; top: 0px; left: 2048px; z-index: 0; display: none;"><a href="http://www.meihuagrp.com/index.php/list/15.html"><img src="/static/images/55a764a0c65d4.jpg" alt="banner2"></a></li><li style="position: absolute; top: 0px; left: 2048px; z-index: 0; display: none;"><a href="http://www.meihuagrp.com/index.php/list/16.html"><img src="/static/images/55a7674500000.jpg" alt="banner3"></a></li><li style="position: absolute; top: 0px; left: 2048px; z-index: 0; display: none;"><a href="http://www.meihuagrp.com/index.php/article/42.html"><img src="/static/images/55a7675abebc2.jpg" alt="banner5"></a></li><li style="position: absolute; top: 0px; left: 2048px; z-index: 0; display: none;"><a href="http://www.meihuagrp.com/index.php/article/14.html"><img src="/static/images/55a7676f2dc6c.jpg" alt="banner6"></a></li><li style="position: absolute; top: 0px; left: 2048px; z-index: 0; display: none;"><a href="http://www.meihuagrp.com/index.php/article/13.html"><img src="/static/images/55a7678f4c4b4.jpg" alt="banner7"></a></li></div>            </div><a href="http://www.meihuagrp.com/#" class="prev" style="opacity: 0.1; display: none;">Prev</a><a href="http://www.meihuagrp.com/#" class="next" style="opacity: 0.1; display: none;">Next</a>
+        <ul class="num"><li class="current"><a rel="0" href="http://www.meihuagrp.com/#">1</a></li><li><a rel="1" href="http://www.meihuagrp.com/#">2</a></li><li><a rel="2" href="http://www.meihuagrp.com/#">3</a></li><li><a rel="3" href="http://www.meihuagrp.com/#">4</a></li><li><a rel="4" href="http://www.meihuagrp.com/#">5</a></li><li><a rel="5" href="http://www.meihuagrp.com/#">6</a></li></ul></div>
+        
+        <script>
+        $('.www51buycom').slides({
+            play: 5000,
+            pause: 2500,
+            hoverPause: true,
+            generateNextPrev:true,//是否启用左右按钮，默认true
+            next:'next',
+            prev:'prev',
+            pagination:true,
+            generatePagination:true,//是否启用页码,默认true
+            paginationClass:'num',
+            effect:'slide',//fade淡入淡出 slide左右移动
+            crossfade:true
+        });
+        /*鼠标移过，左右按钮显示*/
+        $(".index-banner").hover(function(){
+            $(this).find(".prev,.next").fadeTo("show",0.1);
+        },function(){
+            $(this).find(".prev,.next").hide();
+        })
+        /*鼠标移过某个按钮 高亮显示*/
+        $(".prev,.next").hover(function(){
+            $(this).fadeTo("show",0.7);
+        },function(){
+            $(this).fadeTo("show",0.1);
+        });
+        </script>
+     </div>
+  <!--幻灯结束-->
+</div>
+<!--头部结束-->
+<div id="wrap">
+<!--主体内容开始-->
+<div id="body">
+	<!--新品推荐开始-->
+        <div class="recommend fl">
+    	<h2><a href="http://www.meihuagrp.com/index.php/list/61.html">新品推荐</a></h2>
+                <div class="main_box user_style3" data-hipop="one-horizontal">
+        <img class="pic" src="/static/images/58be0f6dccebb.jpg" width="329" height="183">
+        <a href="http://www.meihuagrp.com/index.php/article/692.html" class="popup">MORE</a>
+        </div>
+        <h3><a href="http://www.meihuagrp.com/index.php/article/692.html">海藻糖浆【食品及食品添加剂】</a></h3>
+        <p>海藻糖浆的甜度是蔗糖的30%左右，清爽，甜味适中，可作为防止食品劣化、抑制营养素变质，保持食品新鲜风味、提升食品品质的独特食品配料，海藻糖浆解决了海藻糖溶解度低造成的难溶问题，并且流动性很好，...</p>        <ul>
+         <li><span>06-20</span><a href="http://www.meihuagrp.com/index.php/article/588.html">L-谷氨酰胺（USP型）【医药原料】</a></li><li><span>04-12</span><a href="http://www.meihuagrp.com/index.php/article/537.html">梅花鲜【调味品】</a></li><li><span>03-01</span><a href="http://www.meihuagrp.com/index.php/article/494.html">透明黄原胶</a></li>        </ul>
+    </div>
+    <!--新品推荐结束-->
+    <!--新闻动态开始-->
+    <div class="recommend fl" style="margin:0px 26px;">
+    	<h2><a href="http://www.meihuagrp.com/index.php/list/4.html">新闻动态</a></h2>
+                <div class="main_box user_style3" data-hipop="one-horizontal">
+        <img class="pic" src="/static/images/5b90c2218bf99.gif" width="329" height="183">
+            <a href="http://www.meihuagrp.com/index.php/article/912.html" class="popup">MORE</a>
+        
+        </div>
+        <h3>
+            <a href="http://www.meihuagrp.com/index.php/article/912.html">
+        校企合作：北华航天工业学院举行“梅花科技楼”揭牌仪式</a></h3>
+        <p>9月3日下午，北华航天工业学院“梅花科技楼”揭牌仪式在华航新校区举行。梅花与北华航天工业学院早在2011年7月份就签订了战略合作框架协议，在人才培养等方面展开了深入合作，为支持学校发展，梅花集...</p>        <ul>
+        <li><span>07-20</span><a href="http://www.meihuagrp.com/index.php/article/906.html">招募启事 | 梅花公益新力量，有你就是不一样</a></li><li><span>07-03</span><a href="http://www.meihuagrp.com/index.php/article/899.html">梅花集团参与十公里健步走暨“七一”银企党建共建活动</a></li><li><span>06-29</span><a href="http://www.meihuagrp.com/index.php/article/893.html">通辽公司举行液氨泄漏应急救援演练活动</a></li>        </ul>
+    </div>
+    <!--新闻动态结束-->
+    <!--展会活动开始-->
+    <div class="recommend fl">
+    	<h2><a href="http://www.meihuagrp.com/index.php/list/5.html">展会活动</a></h2>
+                <div class="main_box user_style3" data-hipop="one-horizontal">
+        <img class="pic" src="/static/images/5ab0a28e19951.gif" width="329" height="183">
+                    <a href="http://www.meihuagrp.com/index.php/article/824.html" class="popup">MORE</a>        </div>
+        <h3>
+                    <a href="http://www.meihuagrp.com/index.php/article/824.html">        上海FIC到， 梅花的邀请也送到!</a></h3>
+        <p>梅花生物将于2018年3月22日参展在上海国家会展中心举办的中国国际食品添加剂和配料展览会（FIC），我司展位设在：51K10/51L11，诚邀莅临。  ...</p>        <ul>
+                    <li><span>06-29</span>
+                            <a href="http://www.meihuagrp.com/index.php/article/730.html">            梅花黄原胶在美国IFT展会“走秀比美”</a>
+            </li>            <li><span>06-14</span>
+                            <a href="http://www.meihuagrp.com/index.php/article/725.html">            第十七届世界制药原料中国展（CPHI China）即将开展</a>
+            </li>            <li><span>04-13</span>
+                            <a href="http://www.meihuagrp.com/index.php/article/707.html">            梅花生物参展第21届中国国际食品添加剂和配料展览会（2017FIC）</a>
+            </li>        </ul>
+    </div>
+    <div class="clear"></div>
+    <!--展会活动结束-->
+    <!--直通车开始-->
+    <div class="through fl">
+    	<h2><a href="http://www.meihuagrp.com/#">直通车</a></h2>
+
+        <ul>
+        	<li><a href="http://www.meihuagrp.com/index.php/list/8.html">
+            	<div class="he-wrap tpl4">
+                    <img src="/static/images/pic6.jpg" alt="">
+                    <div class="he-view">
+                        <div class="bg">
+                            <div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div>
+                        </div>
+                        <div class="content">
+                            <span class="more a2" data-animate="fadeInRight"><img src="/static/images/zoom.png"></span>
+                        </div>
+                    </div>
+                </div>
+            	<p>投资者专区</p></a>
+            </li>
+            <li><a href="http://www.meihuagrp.com/index.php/page/355.html">
+            	<div class="he-wrap tpl4">
+                    <img src="/static/images/pic7.jpg" alt="">
+                    <div class="he-view">
+                        <div class="bg">
+                            <div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div>
+                        </div>
+                        <div class="content">
+                            <span class="more a2" data-animate="fadeInRight"><img src="/static/images/zoom.png"></span>
+                        </div>
+                    </div>
+                </div>
+            	<p>客户垂询</p></a>
+            </li>
+            <li>
+                    <a href="http://www.meihuagrp.com/index.php/recruit/56.html">
+                <div class="he-wrap tpl4">
+                <img src="/static/images/pic8.jpg" alt="">
+                    <div class="he-view">
+                        <div class="bg">
+                            <div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div>
+                        </div>
+                        <div class="content">
+                            <span class="more a2" data-animate="fadeInRight"><img src="/static/images/zoom.png"></span>
+                        </div>
+                    </div>
+                </div>
+            	<p>应聘求职</p></a>
+            </li>
+            <li><a href="http://www.meihuagrp.com/index.php/page/2.html">
+            	<div class="he-wrap tpl4">
+                    <img src="/static/images/pic9.jpg" alt="">
+                    <div class="he-view">
+                        <div class="bg">
+                            <div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div><div class="a0" data-animate="fadeInUp"></div><div class="a0" data-animate="fadeInDown"></div>
+                        </div>
+                        <div class="content">
+                            <span class="more a2" data-animate="fadeInRight"><img src="/static/images/zoom.png"></span>
+                        </div>
+                    </div>
+                </div>
+            	<p>检测服务</p></a>
+            </li>
+
+        </ul>
+
+
+
+
+
+
+
+
+
+    </div>
+    <!--直通车结束-->
+    <!--旗下成员网站开始-->
+    <div class="recommend1 fl" style="margin:26px 0px 0px 24px;">
+    	<h2><a href="javascript:;">旗下成员网站</a></h2>
+
+
+        <ul>
+        <li><a href="http://www.gscapsule.com/" target="_blank">山西广生胶囊有限公司</a></li>        </ul>
+    </div>
+    <!--旗下成员网站结束-->
+    <div class="clear"></div>
+
+</div>
+
+<!--主体内容结束-->
+
+        <!--底部开始-->
+
+ <div class="hua">       </div>
+
+<div id="foot1">
+
+
+
+
+
+       <div class="foot">
+
+          <!--底部左侧开始-->
+
+            <div class="fleft fl">
+
+              <a href="http://www.meihuagrp.com/"><img src="/static/images/footlogo.png"></a>
+
+                <p><a style=" margin-left:0px;" href="javascript:void(0);" onclick="openElement()" class="myModal">联系我们</a>|<a href="http://www.meihuagrp.com/index.php/page/5.html">法律声明</a>|<a href="http://www.meihuagrp.com/index.php/page/7.html">隐私保护</a>CopyRight @2005 梅花生物科技集团股份有限公司  藏ICP备15000078号 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255772675'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1255772675%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1255772675"><a href="http://www.cnzz.com/stat/website.php?web_id=1255772675" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./梅花集团官网—专注生物科技，创享美好未来_files/pic.gif"></a></span>
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"0","bdPos":"right","bdTop":"100"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script></p>
+
+
+
+            </div>
+
+            <!--底部左侧结束-->
+
+            <!--底部右侧开始-->
+
+            <div class="fright fr">
+
+              <ul>
+
+                  <li style="margin-left:0px;"><a><img src="/static/images/erweima.png"></a><p><a href="http://www.meihuagrp.com/#">官方微信</a></p></li>
+
+                    <li><a><img src="/static/images/erweima1.png"></a><p><a href="http://www.meihuagrp.com/#">手机官网</a></p></li>
+
+                </ul>
+
+            </div>
+
+            <!--底部右侧结束-->
+
+       </div>
+
+</div>
+
+<!--底部结束-->
+
+<script type="text/javascript">
+
+function removeElement()
+
+{
+
+$(".reveal-modal").stop().animate({ top:-450,opacity:0},300,'',function(){
+
+  $(".reveal-modal").css({visibility:'hidden'});
+
+  $(".reveal-modal").stop().animate({ top:-1000,opacity:1},300);
+
+});
+
+$(".reveal-modal-bg").hide().animate({opacity:0},300);
+
+}
+
+
+
+$(function(){
+
+  $(".myModal").click(function(){
+
+    $(".reveal-modal").stop().animate({ top:-550,opacity:0},300,'',function(){
+
+      $(".reveal-modal").css({visibility:'visible'});
+
+      $(".reveal-modal").stop().animate({ top:100,opacity:1},300);
+
+    });
+
+    $(".reveal-modal-bg").show().animate({opacity:0.35},300);
+
+
+
+  });
+
+  var thisname;
+
+  $(".navh2").each(function(){
+
+    thisname=$('a:eq(1)',this).text();  
+
+    thisname2=$('a:eq(2)',this).text();  
+
+    if(thisname2==""){
+
+thisname2=$('span:eq(0)',this).text();  
+
+    }
+
+
+
+  });
+
+  $(".nav li a span").each(function(){
+
+    if($(this).html().indexOf(thisname)==0 && thisname!=""){
+
+      $(this).addClass("hover");
+
+    }
+
+  });
+
+  $(".mj_menu_li_txt p a").each(function(){
+
+    if($(this).html().indexOf(thisname2)==0 && thisname2!=""){
+
+      $(this).addClass("hover");
+
+    }
+
+  });
+
+  $(".mj_menu_li_txt h5").each(function(){
+
+    if($(this).html().indexOf(thisname2)==0 && thisname2!=""){
+
+      $(this).parent().addClass("hover");
+
+    }
+
+  });
+
+  $(".left > ul > li > a.hover").each(function(){
+
+    thisname3=$(this).text();
+
+  });
+
+  $(".mj_menu_li_txt a").each(function(){
+
+    if($(this).html().indexOf(thisname3)==0 && thisname3!=""){
+
+      $(this).addClass("hover");
+
+    }
+
+  });
+
+});
+
+
+
+</script>
+
+
+
+<div id="myModal" class="reveal-modal" style="position: fixed;top:-1000px;">
+
+  <a onclick="removeElement()" title="关闭" style="line-height:20px;width:20px;cursor: pointer;height:20px;position:relative; top:-30px; left:335px;"><img src="/static/images/close.jpg" width="20" height="20"></a>
+
+  <h2>联系我们</h2>
+
+    <h3>梅花生物科技集团股份有限公司</h3>
+
+    <p>注册地址：西藏自治区拉萨市金珠西路189号</p>
+<p>办公地址：河北省廊坊市经济技术开发区华祥路66号</p>
+    <p>全国服务热线：400-960-0873</p>
+<p>联系电话：0316-2359999&nbsp;&nbsp;&nbsp;&nbsp;传真：0316-2359679 </p>
+    <p>Email：meihua@meihuagrp.com</p>
+    <p>网址：www.meihuagrp.com</p>
+</div>
+
+<div class="reveal-modal-bg" onclick="removeElement()" style="position: fixed;width:100%; height:100%; opacity: 0.35; display: none; cursor: pointer;"></div>
+</div>
+
+
+<div class="bdshare-slide-button-box bdshare-slide-style-r0" style="top: 100px; width: 0px; z-index: 99999; right: 0px;" data-bd-bind="1536828441283"><a href="http://www.meihuagrp.com/#" onclick="return false;" class="bdshare-slide-button" style="left: -24px;"></a><div class="bdshare-slide-list-box" style="width: 0px; display: none;"><div class="bdshare-slide-top">分享到</div><div class="bdshare-slide-list"><ul class="bdshare-slide-list-ul" style="width: 226px;"></ul></div><div class="bdshare-slide-bottom" style="width: 226px;"><a href="http://www.meihuagrp.com/#" onclick="return false;" class="slide-more" data-cmd="more">更多...</a></div></div></div></body></html>
