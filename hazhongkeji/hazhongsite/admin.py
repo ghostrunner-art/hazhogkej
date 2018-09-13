@@ -4,26 +4,16 @@ from .models import MuluTwo, MuluOne, NewsOne, NewsTwo, Otherone
 @admin.register(MuluOne)
 class MuluOneAdmin(admin.ModelAdmin):
     list_display = ('leibie','url','title','jianjie')
-
-
+@admin.register(MuluTwo)
 class MuluTwoAdmin(admin.ModelAdmin):
-    pass
-
-
+    list_display = ('leibie', 'url', 'title', 'jianjie')
+@admin.register(NewsOne)
 class NewsOneAdmin(admin.ModelAdmin):
-    pass
-
-
+    list_display = ('title', 'timeup', 'textone', 'author')
+@admin.register(NewsTwo)
 class NewsTwoAdmin(admin.ModelAdmin):
-    pass
-
-
+    list_display = ('title', 'timeup', 'textone', 'author')
+@admin.register(Otherone)
 class OtheroneAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('title', 'textone')
 
-
-# admin.site.register(MuluOne, MuluOneAdmin)
-admin.site.register(MuluTwo)
-admin.site.register(NewsOne)
-admin.site.register(NewsTwo)
-admin.site.register(Otherone)
