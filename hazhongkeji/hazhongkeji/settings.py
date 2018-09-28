@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hazhongsite.apps.HazhongsiteConfig',
     'mdeditor',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
