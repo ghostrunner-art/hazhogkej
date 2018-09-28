@@ -16,7 +16,7 @@ class HazhongSite(APIView):
     def get(self):
         self.dispatch
         pass
-
+    
 # def index(request):
 #
 #     return render(request, 'index.html')
