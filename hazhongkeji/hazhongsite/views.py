@@ -1,37 +1,23 @@
-from django.shortcuts import render, HttpResponse
-from django.core import serializers
+import json
 from django.http import JsonResponse
+from rest_framework.parsers import JSONParser
 from rest_framework.views import APIView
+from rest_framework import serializers
 from . import models
 
 
+class MuluOneSerializers(serializers.ModelSerializer):
+
+
+    class Meta:
+        model = models.MuluOne
+        fields = ['id','leibie', 'url', 'title', 'jianjie','image_MuluOne']
+        depth = 2
+
 class HazhongSite(APIView):
-    def get(self,request,*args,**kwargs):
-        context = {}
-        s = models.MuluOne.objects.all().first()
-        print(s,'**********',type(s))
-        context['title'] = s
-        # print(context)
-        # cc = serializers.serialize('json',context)
-        return HttpResponse('hello') #JsonResponse(context,)
+    parser_classes = [JSONParser, ]
 
-
-
-
-
-
-
-
-
-
-# def index(request):
-#
-#     return render(request, 'index.html')
-#
-# def about(request):
-#
-#     return render(request, 'about.html')
-#
-# def news(request):
-#
-#     return render(request, 'news.html')
+    def get(self, request, *args, **kwargs):
+        obj = models.MuluOne.objects.all().order_by('title')
+        ser = MuluOneSerializers(instance=obj, many=True)
+        return JsonResponse(ser.data,safe=False)
