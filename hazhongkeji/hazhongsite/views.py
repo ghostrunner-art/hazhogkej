@@ -7,12 +7,11 @@ from . import models
 
 
 class MuluOneSerializers(serializers.ModelSerializer):
-
-
     class Meta:
         model = models.MuluOne
-        fields = ['id','leibie', 'url', 'title', 'jianjie','image_MuluOne']
+        fields = ['id', 'leibie', 'url', 'title', 'jianjie', 'image_MuluOne']
         depth = 2
+
 
 class HazhongSite(APIView):
     parser_classes = [JSONParser, ]
@@ -20,4 +19,4 @@ class HazhongSite(APIView):
     def get(self, request, *args, **kwargs):
         obj = models.MuluOne.objects.all().order_by('title')
         ser = MuluOneSerializers(instance=obj, many=True)
-        return JsonResponse(ser.data,safe=False)
+        return JsonResponse(ser.data, safe=False)
