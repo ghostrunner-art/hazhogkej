@@ -1,10 +1,10 @@
 import json
-from django.http import JsonResponse
+from rest_framework.response import Response
 from rest_framework.parsers import JSONParser
 from rest_framework.views import APIView
 from rest_framework import serializers
+from rest_framework.renderers import JSONRenderer
 from . import models
-
 
 class MuluOneSerializers(serializers.ModelSerializer):
     class Meta:
@@ -14,9 +14,10 @@ class MuluOneSerializers(serializers.ModelSerializer):
 
 
 class HazhongSite(APIView):
-    parser_classes = [JSONParser, ]
+    # parser_classes = [JSONParser, ]
 
     def get(self, request, *args, **kwargs):
         obj = models.MuluOne.objects.all().order_by('title')
         ser = MuluOneSerializers(instance=obj, many=True)
-        return JsonResponse(ser.data, safe=False)
+
+        return Response(ser.data)
