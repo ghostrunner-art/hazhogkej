@@ -44,7 +44,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hazhongsite/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="366">
@@ -56,11 +56,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hazhongkeji/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="353">
-                  <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+                <state relative-caret-position="352">
+                  <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/hazhongsite/models.py" />
         <option value="$PROJECT_DIR$/hazhongsite/urls.py" />
         <option value="$PROJECT_DIR$/hazhongkeji/urls.py" />
-        <option value="$PROJECT_DIR$/hazhongkeji/settings.py" />
         <option value="$PROJECT_DIR$/hazhongsite/views.py" />
+        <option value="$PROJECT_DIR$/hazhongkeji/settings.py" />
       </list>
     </option>
   </component>
@@ -295,9 +295,9 @@
       <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="20" weight="0.2592179" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" x="-7" y="614" width="1876" height="385" id="Terminal" order="19" sideWeight="0.49840087" weight="0.38547486" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.1337953" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -546,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hazhongkeji/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hazhongsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -570,6 +563,13 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hazhongkeji/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
         </state>
       </provider>
     </entry>
