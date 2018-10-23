@@ -14,3 +14,5 @@ class Login(View):
 class zhizhu_index(View):
     def get(self, request, *args, **kwargs):
         return render(request, 'index.html')
+
+from django.db import transaction
