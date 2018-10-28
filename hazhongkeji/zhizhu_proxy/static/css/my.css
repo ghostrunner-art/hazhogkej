@@ -1,5 +1,16 @@
-
 .mmmytop {
     margin-top: 250px;
 }
+.mylogininput{
+    width:300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
+}
+.mylogindiv{
+    margin-left: 50px;
+}
+
+.myloginbutton {
+    margin-top: 12px;
+}
