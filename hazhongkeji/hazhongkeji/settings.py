@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'hazhongsite.apps.HazhongsiteConfig',
     'mdeditor',
     'rest_framework',
-    'zhizhu_proxy',
+    'zhizhu_proxy.apps.ZhizhuConfig',
 ]
 
 MIDDLEWARE = [
