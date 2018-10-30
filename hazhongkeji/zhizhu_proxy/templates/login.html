@@ -11,6 +11,8 @@
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
     <title>login-登陆</title>
 </head>
 
@@ -39,40 +41,55 @@
 
 <div class="container">
     <div class="row">
-{#      <div class="col-sm-6 col-md-4 col-lg-3">#}
-          <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+          <div>
               <form method="post" class="mmmytop" name="login">
                   {% csrf_token %}
-                  <div class="form-group mylogindiv">
+                  <div class="form-group mywidth">
                         <label >姓名</label>
-                        <input type="text" class="form-control mylogininput" id="exampleInputName2" name="username" placeholder="姓名">
+                        <input type="text" class="form-control " id="exampleInputName2" name="username" placeholder="姓名">
                   </div>
-                  <div class="form-group mylogindiv">
+                  <div class="form-group mywidth">
                         <label >联系方式</label>
-                        <input type="text" class="form-control mylogininput" id="exampleInputName2" name="phone" placeholder="联系方式">
+                        <input type="text" class="form-control " id="exampleInputName2" name="phone" placeholder="联系方式">
                   </div>
-                  <div class="form-group mylogindiv">
+                  <div class="form-group mywidth">
                         <label >网吧代码</label>
-                        <input type="text" class="form-control mylogininput" id="exampleInputName2" name="number" placeholder="网吧代码">
+                        <input type="text" class="form-control " id="exampleInputName2" name="number" placeholder="网吧代码">
                   </div>
-                  <div class="btn-group mylogindiv">
-                      <label >地区选择</label>
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Action <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li><a href="#">Separated link</a></li>
-                      </ul>
-                  </div>
-                  <div>
-                      <button type="submit" class="myloginbutton mylogindiv" name="submit" > 确定登记 </button>
+                  <div class="mywidth">
+                      <div>
+                          <label>地区选择</label>
+                      </div>
+                      <div class="btn-group mywidth">
+                          <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                地区 <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">道理区</a></li>
+                            <li><a href="#">南岗区</a></li>
+                            <li><a href="#">香坊区</a></li>
+                            <li><a href="#">动力区</a></li>
+                          </ul>
+                      </div>
+                      <div class="btn-group mywidth">
+                          <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                地区 <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">道理区</a></li>
+                            <li><a href="#">南岗区</a></li>
+                            <li><a href="#">香坊区</a></li>
+                            <li><a href="#">动力区</a></li>
+                          </ul>
+                      </div>
+                      <div class="mybuttion">
+                          <button type="submit" name="submit" > 确定登记 </button>
+                      </div>
                   </div>
               </form>
           </div>
-{#      </div>#}
+      </div>
     </div>
 </div>
 

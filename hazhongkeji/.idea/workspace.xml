@@ -45,8 +45,17 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+            <state relative-caret-position="358">
+              <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhizhu_proxy/static/css/my.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -125,7 +134,6 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/urls.py" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/forms.py" />
-        <option value="$PROJECT_DIR$/zhizhu_proxy/static/css/my.css" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/models.py" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/templates/error.py" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/templates/error.html" />
@@ -134,6 +142,7 @@
         <option value="$PROJECT_DIR$/zhizhu_proxy/views.py" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/apps.py" />
         <option value="$PROJECT_DIR$/hazhongkeji/settings.py" />
+        <option value="$PROJECT_DIR$/zhizhu_proxy/static/css/my.css" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/templates/login.html" />
       </list>
     </option>
@@ -297,16 +306,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.50159913" side_tool="true" weight="0.39173013" />
       <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="17" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="21" weight="0.2592179" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32960895" />
       <window_info anchor="bottom" x="-7" y="614" width="1876" height="385" id="Terminal" order="20" sideWeight="0.49840087" weight="0.38547486" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" weight="0.1337953" />
       <window_info anchor="right" id="SciView" order="5" />
@@ -477,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/static/css/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -574,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -595,6 +589,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login-bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -602,10 +603,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        <state relative-caret-position="358">
+          <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
         </state>
       </provider>
     </entry>
