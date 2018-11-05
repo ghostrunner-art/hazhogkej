@@ -10,30 +10,35 @@
 <form action="/zhizhu/login" method="post" novalidate="novalidate">
     {% csrf_token %}
     {{ form.as_p }}
-
-{#    {{ error }}#}
     <p>
-        <label for="choice2" > 网吧选择 </label>
-        <select name="choice2" required="" id="id_choice2">
-          <option value="" selected="">选择地区</option>
-
-          <option value="5">道里区</option>
-
-          <option value="7">香坊区</option>
-
-          <option value="8">动力区</option>
-
-        </select>
+    <div class="form-group">
+            <label for="id_city" class="control-label">选择网吧</label>
+            <select class="form-control" id="id_city" name="wb">
+                    <option  selected="selected">请选择</option>
+            </select>
+    </div>
     </p>
-    <p>
+
     <input type="submit" value="提交" />
     </p>
 </form>
 
-{#<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>#}
-{#<script type="text/javascript">#}
-{##}
-{#</script>#}
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script>
+    $("#id_choice").change(function () {
+      var countryId = $(this).val();
+      $.ajax({
+        url: "/zhizhu/shuju/",
+        type : "get",
+        data: {
+          'country': countryId
+        },
+        success: function (data) {
+          $("#id_city").html(data);
+        }
+      });
+    });
+</script>
 
 </body>
 </html>

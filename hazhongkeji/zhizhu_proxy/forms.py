@@ -18,10 +18,10 @@ class Myforms(forms.Form):
         max_length=11,
         min_length=11,
         error_messages={
-            'required':'电话号不能为空',
-            'invalid':'格式错误',
-            'max_length':'电话号必须为11位',
-            'min_length':'电话号必须为11位',
+            'required': '电话号不能为空',
+            'invalid': '格式错误',
+            'max_length': '电话号必须为11位',
+            'min_length': '电话号必须为11位',
         },
     )
     # number = forms.CharField(label='网吧代码',max_length=32)
@@ -34,5 +34,13 @@ class Myforms(forms.Form):
             'invalid': '格式错误',
         },
     )
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['choice'].queryset = models.City.objects.all()
+
+
+
+
+
 
 

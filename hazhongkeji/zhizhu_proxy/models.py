@@ -30,7 +30,7 @@ class City(models.Model):
 
 class Wangba(models.Model):
     wb = models.CharField(max_length=32,verbose_name='网吧名称',null=True)
-    wb_for = models.ForeignKey(to=City, max_length=32, verbose_name='属于哪个区',null=True)
+    wb_for = models.ForeignKey(to=City, max_length=32, verbose_name='属于哪个区',null=True,)
 
     class Meta:
         verbose_name = '网吧名称'
