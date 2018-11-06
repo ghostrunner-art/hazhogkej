@@ -6,7 +6,7 @@ class UserInfo(models.Model):
 
     username = models.CharField(max_length=32, verbose_name='姓名')
     phone = models.CharField(max_length=32, verbose_name='联系方式', unique=True)
-    number = models.CharField(max_length=32, verbose_name='网吧代码')
+    number = models.CharField(max_length=32, verbose_name='网吧代码',default='003')
     city = models.CharField(choices=None,max_length=32, null=True, verbose_name='城区')
     wb = models.CharField(max_length=32, null=True, verbose_name='网吧')
 

@@ -2,28 +2,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-theme.min.css' %}" >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/my.css' %}" >
+
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <title>login-登陆</title>
 </head>
 <body>
-
-<form action="/zhizhu/login" method="post" novalidate="novalidate">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <p>
-    <div class="form-group">
-            <label for="id_city" class="control-label">选择网吧</label>
-            <select class="form-control" id="id_city" name="wb">
-                    <option  selected="selected">请选择</option>
-            </select>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+          <div>
+            <form class="mmmytop" action="/zhizhu/login" method="post" novalidate="novalidate">
+                {% csrf_token %}
+            {#    {{ form.as_p }}#}
+                <div class="mywidth">
+                    <label >姓名：</label>
+                    {{ form.username }}
+                </div>
+                <div class="mywidth">
+                    <label >联系方式：</label>
+                    {{ form.phone }}
+                </div>
+                <div class="form-group mywidth">
+                    <label >地区选择：</label>
+                    {{ form.choice }}
+                </div>
+                <div class="mywidth">
+                        <label for="id_city" class="control-label">选择网吧</label>
+                        <select class="form-control" id="id_city" name="wb">
+                                <option  selected="selected">请选择</option>
+                        </select>
+                </div>
+                <div class="mybuttion">
+                    <input type="submit" value="提交" />
+                </div>
+            </form>
+          </div>
+      </div>
     </div>
-    </p>
+</div>
 
-    <input type="submit" value="提交" />
-    </p>
-</form>
-
-<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 <script>
     $("#id_choice").change(function () {
       var countryId = $(this).val();
@@ -36,6 +61,7 @@
         success: function (data) {
           $("#id_city").html(data);
         }
+
       });
     });
 </script>
