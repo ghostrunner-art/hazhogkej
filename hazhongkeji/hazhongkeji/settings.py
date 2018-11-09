@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'hazhongkeji.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'zhizhu',
+        'USER': 'zhizhu',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
@@ -121,13 +121,16 @@ USE_TZ = True
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'templates', 'static'),
 # ]
+
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 STATIC_URL = '/static/'
 
 # STATICFILES_DIRS = (os.path.join('static'),)
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR,'static'),
-# ]
+
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static_collect'),
+]
 
 
 #
