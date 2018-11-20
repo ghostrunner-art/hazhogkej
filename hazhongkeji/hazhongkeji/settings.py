@@ -86,14 +86,7 @@ DATABASES = {
     #     'PORT': '3306',
     # },
 
-    'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'zhizhudb',
-            'USER': 'root',
-            'PASSWORD': 'root123',
-            'HOST': '47.92.199.246',
-            'PORT': '3306',
-        },
+
 }
 
 
