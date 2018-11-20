@@ -20,9 +20,12 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^mdeditor/', include('mdeditor.urls')),
     url(r'^hazhong/', include('hazhongsite.urls')),
     url(r'^zhizhu/', include('zhizhu_proxy.urls')),
-    url(r'^mdeditor/', include('mdeditor.urls')),
+    url(r'^xiaohua/', include('xiaohua_spider.urls')),
+
+
 
 ]
 
