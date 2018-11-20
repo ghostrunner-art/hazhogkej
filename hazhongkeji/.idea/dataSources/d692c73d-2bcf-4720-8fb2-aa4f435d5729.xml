@@ -13,7 +13,7 @@
     <schema id="3" parent="1" name="zhizhu">
       <Current>1</Current>
       <Visible>1</Visible>
-      <Collation>latin1_swedish_ci</Collation>
+      <Collation>utf8_general_ci</Collation>
     </schema>
     <collation id="4" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -1619,7 +1619,6 @@ model</ColNames>
     <column id="366" parent="241" name="city">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="367" parent="241" name="PRIMARY">
@@ -1637,7 +1636,6 @@ model</ColNames>
     <column id="369" parent="242" name="username">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="370" parent="242" name="phone">

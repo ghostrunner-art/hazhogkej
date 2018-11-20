@@ -3,7 +3,7 @@ from . import models
 
 @admin.register(models.UserInfo)
 class UserInfoAdmin(admin.ModelAdmin):
-    list_display = ('username','phone','number')
+    list_display = ('username','phone','city','wb')
 
 @admin.register(models.City)
 class CityAdmin(admin.ModelAdmin):

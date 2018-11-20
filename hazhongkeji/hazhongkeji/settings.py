@@ -36,10 +36,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hazhongsite.apps.HazhongsiteConfig',
+    'zhizhu_proxy.apps.ZhizhuConfig',
+    'xiaohua_spider.apps.XiaohuaSpiderConfig',
     'mdeditor',
     'rest_framework',
-    'zhizhu_proxy.apps.ZhizhuConfig',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -75,15 +77,26 @@ WSGI_APPLICATION = 'hazhongkeji.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'zhizhu',
+    #     'USER': 'zhizhu',
+    #     'PASSWORD': '123456',
+    #     'HOST': 'localhost',
+    #     'PORT': '3306',
+    # },
+
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'zhizhu',
-        'USER': 'zhizhu',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'zhizhudb',
+            'USER': 'root',
+            'PASSWORD': 'root123',
+            'HOST': '47.92.199.246',
+            'PORT': '3306',
+        },
 }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -141,3 +154,12 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 
 MEDIA_URL = '/media/'
+
+# DATABASE_ROUTERS = ['hazhongkeji.db_router.DatabaseAppsRouter',]
+#
+#
+# DATABASE_APPS_MAPPING = {
+#     'xiaohua_spider' : 'db1',
+#
+# }
+#
