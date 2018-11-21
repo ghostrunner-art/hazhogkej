@@ -43,17 +43,8 @@
       <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/error.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -67,14 +58,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login-forms.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login-forms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/error2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -151,13 +166,13 @@
         <option value="$PROJECT_DIR$/hazhongkeji/db_router.py" />
         <option value="$PROJECT_DIR$/xiaohua_spider/models.py" />
         <option value="$PROJECT_DIR$/hazhongkeji/settings.py" />
-        <option value="$PROJECT_DIR$/zhizhu_proxy/templates/login-forms.html" />
-        <option value="$PROJECT_DIR$/zhizhu_proxy/templates/error2.html" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/templates/error.html" />
         <option value="$PROJECT_DIR$/static/css/my.css" />
-        <option value="$PROJECT_DIR$/zhizhu_proxy/templates/base.html" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/templates/login.html" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/static/css/my.css" />
+        <option value="$PROJECT_DIR$/zhizhu_proxy/templates/error2.html" />
+        <option value="$PROJECT_DIR$/zhizhu_proxy/templates/login-forms.html" />
+        <option value="$PROJECT_DIR$/zhizhu_proxy/templates/base.html" />
         <option value="$PROJECT_DIR$/zhizhu_proxy/templates/index.html" />
       </list>
     </option>
@@ -184,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,7 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,16 +340,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.39173013" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.2592179" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3206704" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3206704" />
       <window_info anchor="right" id="Mongo Explorer" order="0" />
-      <window_info anchor="bottom" x="-7" y="614" width="1876" height="385" id="Terminal" order="11" sideWeight="0.49840087" weight="0.31620112" />
+      <window_info anchor="bottom" x="-7" y="614" width="1876" height="385" id="Terminal" order="11" sideWeight="0.49840087" weight="0.54860336" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.41897655" />
@@ -368,17 +382,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hazhongkeji/db_router.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hazhongkeji/db_router.py" />
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -636,13 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hazhongkeji/db_router.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hazhongkeji/db_router.py" />
     <entry file="file://$PROJECT_DIR$/hazhongkeji/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -660,31 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/error2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login-bak.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login-forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -695,10 +676,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/static/css/my.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="288">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/error2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -709,20 +704,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/static/css/my.css">
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/login-forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhizhu_proxy/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>

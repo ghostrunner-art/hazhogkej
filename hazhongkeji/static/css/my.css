@@ -1,19 +1,28 @@
 .mmmytop {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
+
+[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
 .mybgimg {
+    /*background: url("../img/bgm.jpg") no-repeat;*/
     filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
     -moz-background-size: 100% 100%;
     background-size: 100% 100%;
     background-color: #e5e5e5;
 }
+
 .mmmytop2 {
-    margin-top: 50px;
+    margin-top: 38px;
 }
 
 .mmmytop3 {
-    margin-top: 50px;
+    margin-top: 38px;
 }
 
 .mywidth {

@@ -7,7 +7,7 @@
             {% csrf_token %}
         {#    {{ form.as_p }}#}
             <div class="mywidth">
-                <label >姓名：</label>
+                <label >战队队长姓名：</label>
                 {{ form.username }}
             </div>
             <div class="mywidth">
@@ -45,4 +45,10 @@
       });
     });
 </script>
+{% endblock %}
+
+{% block img_in %}
+    <div>
+           <img src="{% static 'img/bgm.jpg' %}" class="img-responsive center-block%">
+    </div>
 {% endblock %}

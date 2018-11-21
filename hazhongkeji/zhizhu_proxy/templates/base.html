@@ -20,11 +20,11 @@
       <div class="col-sm-6 col-md-4 col-lg-3">
           <div>
               <img src="{% static 'img/bgm.jpg' %}" class="img-responsive center-block%">
-{#              height=100% width=100%#}
+
           </div>
           {% block content %} {% endblock %}
       <br>
-      <br>
+          {% block img_in %} {% endblock %}
       </div>
     </div>
 </div>
