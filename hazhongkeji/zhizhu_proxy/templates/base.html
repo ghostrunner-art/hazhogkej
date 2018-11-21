@@ -12,34 +12,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-    <title></title>
+    <title>KOC EBA2018 线上报名</title>
 </head>
 <body class="mybgimg">
 <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-4 col-lg-3">
           <div>
-              <img src="{% static 'img/bgm.jpg' %}" alt="" height=100% width=100%>
+              <img src="{% static 'img/bgm.jpg' %}" class="img-responsive center-block%">
+{#              height=100% width=100%#}
           </div>
-          <div class="mmmytop2" align="center">
-              <div class="mywidth ">
-                  <p>{{ form.errors.username.0 }}</p>
-              </div>
-              <div class="mywidth">
-                  <p> {{ form.errors.phone.0 }}</p>
-              </div>
-              <div class="mywidth">
-                  <p>{{ form.errors.choice.0 }}</p>
-              </div>
-              <div class="mywidth">
-                  <p>网吧为必选项</p>
-              </div>
-              <div class="mybuttion">
-                  <a href="login">
-                    <input type="button" value="重新填写" >
-                  </a>
-              </div>
-          </div>
+          {% block content %} {% endblock %}
+      <br>
+      <br>
       </div>
     </div>
 </div>

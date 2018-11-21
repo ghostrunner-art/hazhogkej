@@ -1,33 +1,25 @@
 .mmmytop {
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 .mybgimg {
-    background: url("../img/bgm.jpg") no-repeat;
     filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
     -moz-background-size: 100% 100%;
     background-size: 100% 100%;
     background-color: #e5e5e5;
 }
-
-.mybgimg1 {
-    background: url("../img/bgm.jpg") no-repeat;
-    background-size: cover;
-    background-color:#e5e5e5;
-}
-
 .mmmytop2 {
-    margin-top: 350px;
+    margin-top: 50px;
 }
 
 .mmmytop3 {
-    margin-top: 500px;
+    margin-top: 50px;
 }
 
 .mywidth {
     margin: 0 auto;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .mybuttion {

@@ -1,51 +1,79 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" >
-    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-theme.min.css' %}" >
-    <link rel="stylesheet" type="text/css" href="{% static 'css/my.css' %}" >
 
-    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+{% block content %}
 
-    <title>login-登陆</title>
-</head>
-<body class="mybgimg">
-<div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-3">
-          <div>
-              <img src="{% static 'img/bgm.jpg' %}" alt="" height=100% width=100%>
+      <div class="mmmytop2" align="center">
+          <div class="mywidth ">
+              <p>{{ form.errors.username.0 }}</p>
           </div>
-          <div class="mmmytop2" align="center">
-              <div class="mywidth ">
-                  <p>{{ form.errors.username.0 }}</p>
-              </div>
-              <div class="mywidth">
-                  <p> {{ form.errors.phone.0 }}</p>
-              </div>
-              <div class="mywidth">
-                  <p>{{ form.errors.choice.0 }}</p>
-              </div>
-              <div class="mywidth">
-                  <p>网吧为必选项</p>
-              </div>
-              <div class="mybuttion">
-                  <a href="login">
-                    <input type="button" value="重新填写" >
-                  </a>
-              </div>
+          <div class="mywidth">
+              <p> {{ form.errors.phone.0 }}</p>
+          </div>
+          <div class="mywidth">
+              <p>{{ form.errors.choice.0 }}</p>
+          </div>
+          <div class="mywidth">
+              <p>网吧为必选项</p>
+          </div>
+          <div class="mybuttion">
+              <a href="login">
+                <input type="button" value="重新填写" >
+              </a>
           </div>
       </div>
-    </div>
-</div>
+{% endblock %}
 
 
 
 
-</body>
-</html>
+
+
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" >#}
+{#    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-theme.min.css' %}" >#}
+{#    <link rel="stylesheet" type="text/css" href="{% static 'css/my.css' %}" >#}
+{##}
+{#    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>#}
+{#    <script src="{% static 'js/bootstrap.min.js' %}"></script>#}
+{##}
+{#    <meta charset="UTF-8">#}
+{#    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />#}
+{##}
+{#    <title>login-登陆</title>#}
+{#</head>#}
+{#<body class="mybgimg">#}
+{#<div class="container">#}
+{#    <div class="row">#}
+{#      <div class="col-sm-6 col-md-4 col-lg-3">#}
+{#          <div>#}
+{#              <img src="{% static 'img/bgm.jpg' %}" alt="" height=100% width=100%>#}
+{#          </div>#}
+{#          <div class="mmmytop2" align="center">#}
+{#              <div class="mywidth ">#}
+{#                  <p>{{ form.errors.username.0 }}</p>#}
+{#              </div>#}
+{#              <div class="mywidth">#}
+{#                  <p> {{ form.errors.phone.0 }}</p>#}
+{#              </div>#}
+{#              <div class="mywidth">#}
+{#                  <p>{{ form.errors.choice.0 }}</p>#}
+{#              </div>#}
+{#              <div class="mywidth">#}
+{#                  <p>网吧为必选项</p>#}
+{#              </div>#}
+{#              <div class="mybuttion">#}
+{#                  <a href="login">#}
+{#                    <input type="button" value="重新填写" >#}
+{#                  </a>#}
+{#              </div>#}
+{#          </div>#}
+{#      </div>#}
+{#    </div>#}
+{#</div>#}
+{#</body>#}
+{#</html>#}

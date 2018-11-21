@@ -1,6 +1,13 @@
 .mmmytop {
-    margin-top: 250px;
+    margin-top: 30px;
 }
+
+
+[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 
 .mybgimg {
     /*background: url("../img/bgm.jpg") no-repeat;*/
@@ -10,24 +17,18 @@
     background-color: #e5e5e5;
 }
 
-.mybgimg1 {
-    background: url("../img/bgm.jpg") no-repeat;
-    background-size: cover;
-    background-color:#e5e5e5;
-}
-
 .mmmytop2 {
-    margin-top: 250px;
+    margin-top: 38px;
 }
 
 .mmmytop3 {
-    margin-top: 350px;
+    margin-top: 38px;
 }
 
 .mywidth {
     margin: 0 auto;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .mybuttion {
