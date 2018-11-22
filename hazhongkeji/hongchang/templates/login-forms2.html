@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+      <div>
+        <form class="mmmytop" action="/hongchang/login" method="post" novalidate="novalidate">
+            {% csrf_token %}
+        {#    {{ form.as_p }}#}
+            <div class="mywidth">
+                <label >姓名：</label>
+                {{ form.username }}
+                <span style="color:red;">{{ form.errors.username.0 }}</span>
+            </div>
+            <div class="mywidth">
+                <label >联系方式：</label>
+                {{ form.phone }}
+                <span style="color:red;">{{ form.errors.phone.0 }}</span>
+            </div>
+            <div class="form-group mywidth">
+                <label >地区选择：</label>
+                {{ form.choice }}
+                <span style="color:red;">{{ form.errors.choice.0 }}</span>
+            </div>
+{#            <div class="mywidth">#}
+{#                    <label for="id_city" class="control-label">选择网吧</label>#}
+{#                    <select class="form-control" id="id_city" name="wb">#}
+{#                            <option  selected="selected">请选择</option>#}
+{#                    </select>#}
+{#            </div>#}
+            <div class="mybuttion">
+                <input class="btn btn-primary" type="submit" value="提交" />
+            </div>
+        </form>
+      </div>
+{#<script>#}
+{#    $("#id_choice").change(function () {#}
+{#      var countryId = $(this).val();#}
+{#      $.ajax({#}
+{#        url: "/zhizhu/shuju/",#}
+{#        type : "get",#}
+{#        data: {#}
+{#          'country': countryId#}
+{#        },#}
+{#        success: function (data) {#}
+{#          $("#id_city").html(data);#}
+{#        }#}
+{##}
+{#      });#}
+{#    });#}
+{#</script>#}
+{% endblock %}
+{##}
+{#{% block img_in %}#}
+{#    <div>#}
+{#           <img src="{% static 'img/ebaimg/shuoming.jpg' %}" class="img-responsive center-block%">#}
+{#    </div>#}
+{#    <div>#}
+{#           <img src="{% static 'img/ebaimg/wangba1.jpg' %}" class="img-responsive center-block%">#}
+{#    </div>#}
+{#    <div>#}
+{#           <img src="{% static 'img/ebaimg/wangba2.jpg' %}" class="img-responsive center-block%">#}
+{#    </div>#}
+{#    <div>#}
+{#           <img src="{% static 'img/ebaimg/wangba3.jpg' %}" class="img-responsive center-block%">#}
+{#    </div>#}
+{#    <div>#}
+{#           <img src="{% static 'img/ebaimg/wangba4.jpg' %}" class="img-responsive center-block%">#}
+{#    </div>#}
+{#    <div>#}
+{#           <img src="{% static 'img/ebaimg/wangba5.jpg' %}" class="img-responsive center-block%">#}
+{#    </div>#}
+{#{% endblock %}#}

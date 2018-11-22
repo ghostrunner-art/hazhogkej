@@ -9,23 +9,27 @@
             <div class="mywidth">
                 <label >战队队长姓名：</label>
                 {{ form.username }}
+                {{ form.errors.username.0 }}
             </div>
             <div class="mywidth">
                 <label >联系方式：</label>
                 {{ form.phone }}
+                {{ form.errors.phone.0 }}
             </div>
             <div class="form-group mywidth">
                 <label >地区选择：</label>
                 {{ form.choice }}
+                {{ form.errors.choice.0 }}
             </div>
             <div class="mywidth">
                     <label for="id_city" class="control-label">选择网吧</label>
                     <select class="form-control" id="id_city" name="wb">
                             <option  selected="selected">请选择</option>
                     </select>
+                    {{ wb }}
             </div>
-            <div class="mybuttion">
-                <input type="submit" value="提交" />
+            <div class="mybuttion ">
+                <input class="btn btn-primary" type="submit" value="提交" />
             </div>
         </form>
       </div>
@@ -49,6 +53,21 @@
 
 {% block img_in %}
     <div>
-           <img src="{% static 'img/bgm.jpg' %}" class="img-responsive center-block%">
+           <img src="{% static 'img/ebaimg/shuoming.jpg' %}" class="img-responsive center-block%">
+    </div>
+    <div>
+           <img src="{% static 'img/ebaimg/wangba1.jpg' %}" class="img-responsive center-block%">
+    </div>
+    <div>
+           <img src="{% static 'img/ebaimg/wangba2.jpg' %}" class="img-responsive center-block%">
+    </div>
+    <div>
+           <img src="{% static 'img/ebaimg/wangba3.jpg' %}" class="img-responsive center-block%">
+    </div>
+    <div>
+           <img src="{% static 'img/ebaimg/wangba4.jpg' %}" class="img-responsive center-block%">
+    </div>
+    <div>
+           <img src="{% static 'img/ebaimg/wangba5.jpg' %}" class="img-responsive center-block%">
     </div>
 {% endblock %}

@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^mdeditor/', include('mdeditor.urls')),
     url(r'^hazhong/', include('hazhongsite.urls')),
     url(r'^zhizhu/', include('zhizhu_proxy.urls')),
+    url(r'^hongchang/', include('hongchang.urls')),
     url(r'^xiaohua/', include('xiaohua_spider.urls')),
 
 

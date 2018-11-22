@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'hazhongsite.apps.HazhongsiteConfig',
     'zhizhu_proxy.apps.ZhizhuConfig',
     'xiaohua_spider.apps.XiaohuaSpiderConfig',
+    'hongchang.apps.HongchangConfig',
     'mdeditor',
     'rest_framework',
 ]
@@ -82,7 +83,7 @@ DATABASES = {
         'NAME': 'zhizhu',
         'USER': 'zhizhu',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     },
 }

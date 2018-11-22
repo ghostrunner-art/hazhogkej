@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base2.html' %}
 {% load static %}
 
 {% block content %}
@@ -7,7 +7,7 @@
               <h1 style="color:red;">提交成功</h1>
           </div>
           <div class="mywidth">
-              <p>战队队长姓名：{{ username }}</p>
+              <p>姓名：{{ username }}</p>
           </div>
           <div class="mywidth">
               <p>联系方式：{{ phone_valid }}</p>
@@ -15,11 +15,11 @@
           <div class="mywidth">
               <p>地区：{{ city }}</p>
           </div>
+{#          <div class="mywidth">#}
+{#              <p>网吧：{{ wb }}</p>#}
+{#          </div>#}
           <div class="mywidth">
-              <p>网吧：{{ wb }}</p>
-          </div>
-          <div class="mywidth">
-              <button class="btn btn-primary" onclick="location.href='http://www.pythonz.cn/zhizhu/login'" type="button"> 确定 </button>
+              <button class="btn btn-primary" onclick="location.href='http://www.pythonz.cn/hongchang/login'" type="button"> 确定 </button>
           </div>
       </div>
 {% endblock %}

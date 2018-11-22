@@ -13,7 +13,6 @@
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
       <user-name>zhizhu</user-name>
       <introspection-schemas>*:zhizhu</introspection-schemas>
     </data-source>
