@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'zhizhu_proxy.apps.ZhizhuConfig',
     'xiaohua_spider.apps.XiaohuaSpiderConfig',
     'hongchang.apps.HongchangConfig',
+    'myauth.apps.MyauthConfig',
     'mdeditor',
     'rest_framework',
 ]
