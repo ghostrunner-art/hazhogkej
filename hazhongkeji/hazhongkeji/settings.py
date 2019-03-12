@@ -35,6 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'allauth',    # allauth应用
+    'allauth.account', # allauth应用
+    'allauth.socialaccount', # allauth应用
+    'allauth.socialaccount.providers.weixin', # allauth 微信应用
     'hazhongsite.apps.HazhongsiteConfig',
     'zhizhu_proxy.apps.ZhizhuConfig',
     'xiaohua_spider.apps.XiaohuaSpiderConfig',
@@ -43,6 +47,15 @@ INSTALLED_APPS = [
     'mdeditor',
     'rest_framework',
 ]
+SITE_ID = 1    # allauth 配置
+
+AUTHENTICATION_BACKENDS = (
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
 
 
 MIDDLEWARE = [
