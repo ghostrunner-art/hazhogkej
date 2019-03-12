@@ -6,7 +6,6 @@ from django.http import HttpResponse
 
 class WeixinAuth(views.View):
     def get(self,request):
-
         return HttpResponse('ok')
 
 

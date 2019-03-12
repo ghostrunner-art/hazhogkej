@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'allauth',    # allauth应用
     'allauth.account', # allauth应用
     'allauth.socialaccount', # allauth应用
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'myauth.apps.MyauthConfig',
     'mdeditor',
     'rest_framework',
+    'xinhongguang.apps.XinhongguangConfig',
 ]
 SITE_ID = 1    # allauth 配置
 
@@ -101,8 +103,6 @@ DATABASES = {
         'PORT': '3306',
     },
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators

@@ -25,8 +25,10 @@ urlpatterns = [
     url(r'^zhizhu/', include('zhizhu_proxy.urls')),
     url(r'^hongchang/', include('hongchang.urls')),
     url(r'^xiaohua/', include('xiaohua_spider.urls')),
-    url(r'^auth/', include('myauth.urls')),
+    url(r'^auth/', include('myauth.urls',namespace='myauth')),
     url(r'^accounts/', include('allauth.urls')),
+    url(r'^xinhongguang/', include('allauth.urls')),
+
 
 ]
 
