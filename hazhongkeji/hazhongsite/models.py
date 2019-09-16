@@ -34,13 +34,11 @@ class NewsOne(models.Model):
     textone = MDTextField(verbose_name='正文')
     author = models.CharField(max_length=30, verbose_name='作者')
 
-
     class Meta:
         verbose_name = '主导航信息列表'
         verbose_name_plural = verbose_name
     def __str__(self):
         return self.title
-
 
 class NewsTwo(models.Model):
     waijian_mulutwo = models.ForeignKey(to='MuluTwo', on_delete=models.CASCADE, verbose_name='关联目录')
@@ -56,7 +54,6 @@ class NewsTwo(models.Model):
 
     def __str__(self):
         return self.title
-
 
 class Otherone(models.Model):
     title = models.CharField(max_length=500, verbose_name='预留字段(charm)')
